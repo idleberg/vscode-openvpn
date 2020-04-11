@@ -55,6 +55,8 @@ Clone repository as `openvpn`:
 $ git clone https://github.com/idleberg/vscode-openvpn openvpn
 ```
 ## Related
+
+- [atom-openvpn](https://github.com/idleberg/atom-language-openvpn)
 - [sublime-openvpn](https://packagecontrol.io/packages/OpenVPN)
 
 ## License
