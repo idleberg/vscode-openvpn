@@ -1,0 +1,84 @@
+{
+    "name": "openvpn",
+    "displayName": "OpenVPN",
+    "description": "Language support and snippets for OpenVPN configuration files",
+    "version": "0.0.0",
+    "publisher": "idleberg",
+    "license": "MIT",
+    "author": {
+        "name": "Jan T. Sott",
+        "url": "http://github.com/idleberg"
+    },
+    "main": "./readme.md",
+    "scripts": {
+        "build": "gulp",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "vscode-linter",
+        "vscode:prepublish": "npm run build"
+    },
+    "keywords": [
+        "openvpn",
+        "open vpn"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/idleberg/vscode-openvpn"
+    },
+    "homepage": "https://github.com/idleberg/vscode-openvpn#readme",
+    "bugs": {
+        "url": "https://github.com/idleberg/vscode-openvpn/issues"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-raster": "^0.2.0",
+        "gulp-rename": "^1.4.0",
+        "husky": "^3.0.4",
+        "vscode": "^1.1.36",
+        "vscode-linter": "^0.3.1"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run test"
+        }
+    },
+    "icon": "images/logo.png",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "activationEvents": [
+        "onLanguage:openvpn"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "openvpn",
+                "aliases": [
+                    "OpenVPN Configuration",
+                    "OpenVPN"
+                ],
+                "extensions": [
+                    "installer.cfg"
+                ],
+                "configuration": "./config/openvpn.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "openvpn",
+                "scopeName": "source.openvpn",
+                "path": "./syntaxes/openvpn.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "openvpn",
+                "path": "./snippets/openvpn.json"
+            }
+        ]
+    }
+}

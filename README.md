@@ -1,0 +1,67 @@
+# vscode-openvpn
+
+[![The MIT License](https://flat.badgen.net/badge/license/MIT/orange)](http://opensource.org/licenses/MIT)
+[![GitHub](https://flat.badgen.net/github/release/idleberg/vscode-openvpn)](https://github.com/idleberg/vscode-openvpn/releases)
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/idleberg.openvpn.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=idleberg.openvpn)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/vscode-openvpn)](https://circleci.com/gh/idleberg/vscode-openvpn)
+[![David](https://flat.badgen.net/david/dep/idleberg/vscode-openvpn)](https://david-dm.org/idleberg/vscode-openvpn)
+
+Language support, snippets and build-system for [OpenVPN](https://github.com/OpenVPN/openvpn) configuration files
+
+**Note:** I have only started using OpenVPN recently and primarily relied on [examples](https://github.com/OpenVPN/openvpn/tree/master/sample/sample-config-files) and the [documentation](https://openvpn.net/vpn-server-resources/) to create this package. Feel free to contribute additions and improvements!
+
+## Installation
+
+### Extension Marketplace
+
+Launch Quick Open, paste the following command, and press <kbd>Enter</kbd>
+
+`ext install idleberg.openvpn`
+
+### CLI
+
+With [shell commands](https://code.visualstudio.com/docs/editor/command-line) installed, you can use the following command to install the extension:
+
+`$ code --install-extension idleberg.openvpn`
+
+### Packaged Extension
+
+Download the packaged extension from the the [release page](https://github.com/idleberg/vscode-openvpn/releases) and install it from the command-line:
+
+```bash
+$ code --install-extension path/to/openvpn-*.vsix
+```
+
+Alternatively, you can download the packaged extension from the [Open VSX Registry](https://open-vsx.org/) or using the [`ovsx`](https://www.npmjs.com/package/ovsx) command-line tool:
+
+```bash
+$ ovsx get idleberg.openvpn
+```
+
+### Clone Repository
+
+Change to your Visual Studio Code extensions directory:
+
+```bash
+# Windows
+$ cd %USERPROFILE%\.vscode\extensions
+
+# Linux & macOS
+$ cd ~/.vscode/extensions/
+```
+
+Clone repository as `openvpn`:
+
+```bash
+$ git clone https://github.com/idleberg/vscode-openvpn openvpn
+```
+## Related
+- [sublime-openvpn](https://packagecontrol.io/packages/OpenVPN)
+
+## License
+
+This work is licensed under [The MIT License](https://opensource.org/licenses/MIT)
+
+## Donate
+
+You are welcome to support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/vscode-applescript) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`

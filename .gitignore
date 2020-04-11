@@ -1,0 +1,9 @@
+*.vsix
+bower_components/
+lib/
+node_modules/
+npm-debug.log*
+todo.md
+tsconfig.tsbuildinfo
+vendor/
+yarn.lock

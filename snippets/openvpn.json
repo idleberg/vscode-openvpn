@@ -1,0 +1,210 @@
+{
+  "ca": {
+    "body": "ca ${2:${1:file}.crt}$0",
+    "prefix": "ca"
+  },
+  "cert": {
+    "body": "cert ${2:${1:file}.crt}$0",
+    "prefix": "cert"
+  },
+  "cipher": {
+    "body": "cipher ${ciper}$0",
+    "prefix": "cipher"
+  },
+  "client": {
+    "body": "client$0",
+    "prefix": "client"
+  },
+  "client-config-dir": {
+    "body": "client-config-dir ${1:dir}$0",
+    "prefix": "client-config-dir"
+  },
+  "client-to-client": {
+    "body": "client-to-client$0",
+    "prefix": "client-to-client"
+  },
+  "comp-lzo": {
+    "body": "comp-lzo ${1:mode}$0",
+    "prefix": "comp-lzo"
+  },
+  "compress": {
+    "body": "compress ${1:compression}$0",
+    "prefix": "compress"
+  },
+  "dev": {
+    "body": "dev ${1:tap|tun}$0",
+    "prefix": "dev"
+  },
+  "dev-node": {
+    "body": "dev-node ${1:node}$0",
+    "prefix": "dev-node"
+  },
+  "dh": {
+    "body": "dh ${2:${1:params}.pem}$0",
+    "prefix": "dh"
+  },
+  "duplicate-cn": {
+    "body": "duplicate-cn$0",
+    "prefix": "duplicate-cn"
+  },
+  "explicit-exit-notify": {
+    "body": "explicit-exit-notify ${1:number}$0",
+    "prefix": "explicit-exit-notify"
+  },
+  "group": {
+    "body": "group ${1:gid}$0",
+    "prefix": "group"
+  },
+  "http-proxy": {
+    "body": "http-proxy ${1:server} ${2:port}${3: ${4:authfile|auto|auto-nct}${5: ${6:auth-method}}}$0",
+    "prefix": "http-proxy"
+  },
+  "http-proxy-retry": {
+    "body": "http-proxy-retry$0",
+    "prefix": "http-proxy-retry"
+  },
+  "ifconfig": {
+    "body": "ifconfig ${1:local} ${2:remote}$0",
+    "prefix": "ifconfig"
+  },
+  "ifconfig-pool-persist": {
+    "body": "ifconfig-pool-persist ${2:${1:pool}.txt}${3: ${$:seconds}}$0",
+    "prefix": "ifconfig-pool-persist"
+  },
+  "ifconfig-push": {
+    "body": "ifconfig-push ${1:local}${2:${3:remote-netmask}}$0",
+    "prefix": "ifconfig-push"
+  },
+  "inactive": {
+    "body": "inactive ${1:seconds} ${2:bytes}$0",
+    "prefix": "inactive"
+  },
+  "keepalive": {
+    "body": "keepalive ${1:ping} ${2:timeout}$0",
+    "prefix": "keepalive"
+  },
+  "key": {
+    "body": "key ${2:${1:file}.key}$0",
+    "prefix": "key"
+  },
+  "learn-address": {
+    "body": "learn-address ${1:cmd}$0",
+    "prefix": "learn-address"
+  },
+  "log": {
+    "body": "log ${2:${1:file}.log}$0",
+    "prefix": "log"
+  },
+  "log-append": {
+    "body": "log-append ${2:${1:file}.log}$0",
+    "prefix": "log-append"
+  },
+  "max-clients": {
+    "body": "max-clients ${1:number}$0",
+    "prefix": "max-clients"
+  },
+  "mute": {
+    "body": "mute ${1:number}$0",
+    "prefix": "mute"
+  },
+  "mute-replay-warnings": {
+    "body": "mute-replay-warnings$0",
+    "prefix": "mute-replay-warnings"
+  },
+  "nobind": {
+    "body": "nobind$0",
+    "prefix": "nobind"
+  },
+  "persist-key": {
+    "body": "persist-key$0",
+    "prefix": "persist-key"
+  },
+  "persist-tun": {
+    "body": "persist-tun$0",
+    "prefix": "persist-tun"
+  },
+  "ping": {
+    "body": "ping ${1:seconds}$0",
+    "prefix": "ping"
+  },
+  "ping-restart": {
+    "body": "ping-restart ${1:seconds}$0",
+    "prefix": "ping-restart"
+  },
+  "ping-timer-rem": {
+    "body": "ping-timer-rem$0",
+    "prefix": "ping-timer-rem"
+  },
+  "port": {
+    "body": "port ${1:port}$0",
+    "prefix": "port"
+  },
+  "proto": {
+    "body": "proto ${1:udp|tcp-client|tcp-server}$0",
+    "prefix": "proto"
+  },
+  "push": {
+    "body": "push ${2:\"${1:directive}\"}$0",
+    "prefix": "push"
+  },
+  "remote": {
+    "body": "remote ${1:ip} ${2:port}$0",
+    "prefix": "remote"
+  },
+  "remote-cert-tls": {
+    "body": "remote-cert-tls ${1:client|server}$0",
+    "prefix": "remote-cert-tls"
+  },
+  "remote-random": {
+    "body": "remote-random$0",
+    "prefix": "remote-random"
+  },
+  "resolv-retry": {
+    "body": "resolv-retry ${1:number}$0",
+    "prefix": "resolv-retry"
+  },
+  "route": {
+    "body": "route ${1:ip} ${2:gateway} ${3:metric}$0",
+    "prefix": "route"
+  },
+  "secret": {
+    "body": "secret ${2:${1:file}.key}$0",
+    "prefix": "secret"
+  },
+  "server": {
+    "body": "server ${1:ip} ${2:gateway}$0",
+    "prefix": "server"
+  },
+  "server-bridge": {
+    "body": "server-bridge ${1:gateway} ${2:netmask} {3:pool_start_ip} ${4:pool_end_ip}$0",
+    "prefix": "server-bridge"
+  },
+  "status": {
+    "body": "status \"${2:${1:status}.log}\"$0",
+    "prefix": "status"
+  },
+  "tls-auth": {
+    "body": "tls-auth$0",
+    "prefix": "tls-auth"
+  },
+  "tls-client": {
+    "body": "tls-client$0",
+    "prefix": "tls-client"
+  },
+  "tls-server": {
+    "body": "tls-server$0",
+    "prefix": "tls-server"
+  },
+  "up": {
+    "body": "up$0",
+    "prefix": "up"
+  },
+  "user": {
+    "body": "user ${1:uid}$0",
+    "prefix": "user"
+  },
+  "verb": {
+    "body": "verb ${1:number}$0",
+    "prefix": "verb"
+  }
+}
