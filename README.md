@@ -4,9 +4,8 @@
 [![GitHub](https://flat.badgen.net/github/release/idleberg/vscode-openvpn)](https://github.com/idleberg/vscode-openvpn/releases)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/idleberg.openvpn.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=idleberg.openvpn)
 [![CircleCI](https://flat.badgen.net/circleci/github/idleberg/vscode-openvpn)](https://circleci.com/gh/idleberg/vscode-openvpn)
-[![David](https://flat.badgen.net/david/dep/idleberg/vscode-openvpn)](https://david-dm.org/idleberg/vscode-openvpn)
 
-Language support, snippets and build-system for [OpenVPN](https://github.com/OpenVPN/openvpn) configuration files
+Language support and snippets for [OpenVPN](https://github.com/OpenVPN/openvpn) configuration files
 
 **Note:** I have only started using OpenVPN recently and primarily relied on [examples](https://github.com/OpenVPN/openvpn/tree/master/sample/sample-config-files) and the [documentation](https://openvpn.net/vpn-server-resources/) to create this package. Feel free to contribute additions and improvements!
 
