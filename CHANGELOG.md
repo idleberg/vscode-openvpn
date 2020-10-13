@@ -1,4 +1,3 @@
-
 # v0.2.0 [#](https://github.com/idleberg/vscode-openvpn/releases/tag/0.2.0)
 
 - add syntax keywords
