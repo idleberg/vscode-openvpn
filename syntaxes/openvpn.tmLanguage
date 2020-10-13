@@ -51,7 +51,7 @@
 
         <dict>
             <key>match</key>
-            <string>\b([0-9]+(\.[0-9]+)*)\b</string>
+            <string>\s+([0-9]+(\.[0-9]+)*)\s+</string>
             <key>name</key>
             <string>constant.numeric.openvpn</string>
         </dict>
