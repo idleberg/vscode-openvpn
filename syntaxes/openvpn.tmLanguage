@@ -7,8 +7,8 @@
 
     <key>fileTypes</key>
     <array>
-        <string>openvpn</string>
         <string>ovpn</string>
+        <string>openvpn</string>
         <string>conf</string>
     </array>
 
