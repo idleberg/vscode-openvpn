@@ -23,7 +23,7 @@
 
         <dict>
             <key>match</key>
-            <string>^\s*(?i)(ca|cert|cipher|client(-config-dir|-to-client)?|compress|dev(-node)?|dh|duplicate-cn|explicit-exit-notify|group|http-proxy(-retry)?|ifconfig(-pool-persist|-push)?|inactive|keepalive|key|learn-address|log(-append)?|max-clients|mute(-replay-warnings)?|nobind|persist-(key|tun)|ping(-restart|-timer-rem)?|port|proto|push|remote(-cert-tls|-random)?|resolv-retry|route|secret|server|server(-bridge)?|status|tls-(auth|client|server)|up|user|verb)\b</string>
+            <string>^\s*(?i)(auth-nocache|ca|cert|cipher|client(-config-dir|-to-client)?|compress|dev(-node)?|dh|duplicate-cn|explicit-exit-notify|group|http-proxy(-retry)?|ifconfig(-pool-persist|-push)?|inactive|keepalive|key|learn-address|log(-append)?|max-clients|mute(-replay-warnings)?|nobind|persist-(key|tun)|ping(-restart|-timer-rem)?|port|proto|push|remote(-cert-tls|-random)?|renet-sec|resolv-retry|route|secret|server|server(-bridge)?|status|tls-(auth|client|server)|up|user|verb)\b</string>
             <key>name</key>
             <string>keyword.language.openvpn</string>
         </dict>
