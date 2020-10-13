@@ -2,7 +2,7 @@
     "name": "openvpn",
     "displayName": "OpenVPN",
     "description": "Language support and snippets for OpenVPN configuration files",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "publisher": "idleberg",
     "license": "MIT",
     "author": {
