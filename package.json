@@ -28,12 +28,11 @@
     "bugs": {
         "url": "https://github.com/idleberg/vscode-openvpn/issues"
     },
-    "dependencies": {},
     "devDependencies": {
         "gulp": "^4.0.2",
         "gulp-raster": "^0.2.0",
-        "gulp-rename": "^1.4.0",
-        "husky": "^3.0.4",
+        "gulp-rename": "^2.0.0",
+        "husky": ">=4 <5",
         "vscode": "^1.1.36",
         "vscode-linter": "^0.3.1"
     },
