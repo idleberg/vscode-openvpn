@@ -1,3 +1,7 @@
+# v0.2.3 [#](https://github.com/idleberg/vscode-openvpn/releases/tag/0.2.3)
+
+- update dependencies
+
 # v0.2.2 [#](https://github.com/idleberg/vscode-openvpn/releases/tag/0.2.2)
 
 - improve pattern for numeric characters
