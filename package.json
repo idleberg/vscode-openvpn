@@ -12,8 +12,9 @@
     "main": "./readme.md",
     "scripts": {
         "build": "gulp",
+        "lint": "vscode-linter",
         "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "vscode-linter",
+        "test": "npm run lint",
         "vscode:prepublish": "npm run build"
     },
     "keywords": [
