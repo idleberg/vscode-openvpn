@@ -2,14 +2,13 @@
     "name": "openvpn",
     "displayName": "OpenVPN",
     "description": "Language support and snippets for OpenVPN configuration files",
-    "version": "0.2.4",
+    "version": "0.2.3",
     "publisher": "idleberg",
     "license": "MIT",
     "author": {
         "name": "Jan T. Sott",
         "url": "http://github.com/idleberg"
     },
-    "main": "./readme.md",
     "scripts": {
         "build": "gulp",
         "lint": "vscode-linter",
