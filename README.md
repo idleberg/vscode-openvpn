@@ -3,7 +3,7 @@
 [![The MIT License](https://flat.badgen.net/badge/license/MIT/orange)](http://opensource.org/licenses/MIT)
 [![GitHub](https://flat.badgen.net/github/release/idleberg/vscode-openvpn)](https://github.com/idleberg/vscode-openvpn/releases)
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/idleberg.openvpn.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=idleberg.openvpn)
-[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/vscode-openvpn)](https://circleci.com/gh/idleberg/vscode-openvpn)
+[![CI](https://img.shields.io/github/actions/workflow/status/idleberg/vscode-openvpn/default.yml?style=flat-square)](https://github.com/idleberg/vscode-openvpn/actions)
 
 Language support and snippets for [OpenVPN](https://github.com/OpenVPN/openvpn) configuration files
 
