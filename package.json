@@ -45,9 +45,6 @@
         "Programming Languages",
         "Snippets"
     ],
-    "activationEvents": [
-        "onLanguage:openvpn"
-    ],
     "contributes": {
         "languages": [
             {
