@@ -12,8 +12,6 @@
     "scripts": {
         "build": "gulp",
         "lint": "vscode-linter",
-        "package": "vsce package --no-dependencies --githubBranch main",
-        "publish": "vsce publish --no-dependencies --githubBranch main",
         "test": "npm run lint",
         "vscode:prepublish": "npm run build"
     },
