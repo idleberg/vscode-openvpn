@@ -2,6 +2,7 @@
 *.map
 .circleci/
 .editorconfig
+.github/
 .gitignore
 .travis.yml
 gulpfile.js
