@@ -32,7 +32,7 @@
         "gulp-raster": "^0.2.0",
         "gulp-rename": "^2.0.0",
         "husky": "^8.0.3",
-        "vscode": "^1.1.36",
+        "vscode": "^1.1.37",
         "vscode-linter": "^0.3.1"
     },
     "icon": "images/logo.png",
