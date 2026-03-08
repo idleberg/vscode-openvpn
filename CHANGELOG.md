@@ -1,3 +1,13 @@
+# v0.3.6 [#](https://github.com/idleberg/vscode-openvpn/releases/tag/v0.3.6)
+
+- update tooling
+- update dependencies
+
+# v0.3.3 [#](https://github.com/idleberg/vscode-openvpn/releases/tag/v0.3.3)
+
+- update keywords (Thanks @storm49152)
+- update dependencies
+
 # v0.3.0 [#](https://github.com/idleberg/vscode-openvpn/releases/tag/v0.3.0)
 
 - update syntax grammar
