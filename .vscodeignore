@@ -1,17 +1,18 @@
 # Development
 *.map
-.circleci/
+.claude/
 .editorconfig
-.github/
 .gitignore
-.travis.yml
-gulpfile.js
+.github/
+biome.jsonc
+commitlint.config.ts
+lefthook.toml
 package-lock.json
 src/
+tools/
 tsconfig.json
 tsconfig.tsbuildinfo
-tslint.json
-webpack.config.js
+tsdown.config.mts
 
 # Package managers
 node_modules/
@@ -27,5 +28,5 @@ yarn.lock
 .vscode/**
 
 # Project specific
-images/logo.svg
+resources/logo.svg
 todo.md
