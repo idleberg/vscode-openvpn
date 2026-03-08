@@ -1,76 +1,76 @@
 {
-    "name": "openvpn",
-    "displayName": "OpenVPN",
-    "description": "Language support and snippets for OpenVPN configuration files",
-    "version": "0.3.5",
-    "publisher": "idleberg",
-    "license": "MIT",
-    "author": {
-        "name": "Jan T. Sott",
-        "url": "http://github.com/idleberg"
-    },
-    "scripts": {
-        "build": "sharp resize 1024 1024 --input \"src/logo.svg\" --output resources/logo.png",
-        "lint": "biome check",
-        "test": "npm run lint",
-        "vscode:prepublish": "npm run build"
-    },
-    "keywords": [
-        "openvpn",
-        "open vpn"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/idleberg/vscode-openvpn"
-    },
-    "homepage": "https://github.com/idleberg/vscode-openvpn#readme",
-    "bugs": {
-        "url": "https://github.com/idleberg/vscode-openvpn/issues"
-    },
-    "devDependencies": {
-        "@commitlint/cli": "^20.4.3",
-        "@commitlint/config-conventional": "^20.4.3",
-        "@idleberg/configs": "^0.4.2",
-        "sharp-cli": "^5.2.0",
-        "vscode": "^1.1.37",
-        "vscode-linter": "^0.3.1"
-    },
-    "icon": "images/logo.png",
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Programming Languages",
-        "Snippets"
-    ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "openvpn",
-                "aliases": [
-                    "OpenVPN Configuration",
-                    "OpenVPN"
-                ],
-                "extensions": [
-                    "ovpn",
-                    "openvpn",
-                    "conf"
-                ],
-                "configuration": "./config/openvpn.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "openvpn",
-                "scopeName": "source.openvpn",
-                "path": "./syntaxes/openvpn.tmLanguage"
-            }
-        ],
-        "snippets": [
-            {
-                "language": "openvpn",
-                "path": "./snippets/openvpn.json"
-            }
-        ]
-    }
+	"name": "openvpn",
+	"displayName": "OpenVPN",
+	"description": "Language support and snippets for OpenVPN configuration files",
+	"version": "0.3.5",
+	"publisher": "idleberg",
+	"license": "MIT",
+	"author": {
+		"name": "Jan T. Sott",
+		"url": "http://github.com/idleberg"
+	},
+	"scripts": {
+		"build": "sharp resize 1024 1024 --input \"src/logo.svg\" --output resources/logo.png",
+		"lint": "biome check",
+		"test": "npm run lint",
+		"vscode:prepublish": "npm run build"
+	},
+	"keywords": [
+		"openvpn",
+		"open vpn"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/idleberg/vscode-openvpn"
+	},
+	"homepage": "https://github.com/idleberg/vscode-openvpn#readme",
+	"bugs": {
+		"url": "https://github.com/idleberg/vscode-openvpn/issues"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^20.4.3",
+		"@commitlint/config-conventional": "^20.4.3",
+		"@idleberg/configs": "^0.4.2",
+		"sharp-cli": "^5.2.0",
+		"vscode": "^1.1.37",
+		"vscode-linter": "^0.3.1"
+	},
+	"icon": "images/logo.png",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "openvpn",
+				"aliases": [
+					"OpenVPN Configuration",
+					"OpenVPN"
+				],
+				"extensions": [
+					"ovpn",
+					"openvpn",
+					"conf"
+				],
+				"configuration": "./config/openvpn.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "openvpn",
+				"scopeName": "source.openvpn",
+				"path": "./syntaxes/openvpn.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "openvpn",
+				"path": "./snippets/openvpn.json"
+			}
+		]
+	}
 }
