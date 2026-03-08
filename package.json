@@ -12,6 +12,8 @@
 	"scripts": {
 		"build": "sharp resize 1024 1024 --input \"src/logo.svg\" --output resources/logo.png",
 		"lint": "biome check",
+		"publish:ovsx": "ovsx publish --no-dependencies",
+		"publish:vsce": "vsce publish --githubBranch main --no-dependencies",
 		"test": "npm run lint",
 		"vscode:prepublish": "npm run build"
 	},
