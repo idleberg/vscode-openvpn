@@ -1,8 +1,7 @@
 # vscode-openvpn
 
+[![License](https://img.shields.io/github/license/idleberg/vscode-openvpn?color=blue&style=for-the-badge)](LICENSE)
 [![Version](https://img.shields.io/github/v/release/idleberg/vscode-openvpn?style=for-the-badge)](https://github.com/idleberg/vscode-openvpn/releases)
-[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/idleberg.openvpn?style=for-the-badge&label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=idleberg.openvpn)
-[![Open VSX Downloads](https://img.shields.io/open-vsx/dt/idleberg/openvpn?style=for-the-badge&label=Open%20VSX)](https://open-vsx.org/extension/idleberg/openvpn)
 [![Build](https://img.shields.io/github/actions/workflow/status/idleberg/vscode-openvpn/default.yml?style=for-the-badge)](https://github.com/idleberg/vscode-openvpn/actions)
 
 Language support and snippets for [OpenVPN](https://github.com/OpenVPN/openvpn) configuration files
@@ -61,4 +60,4 @@ $ git clone https://github.com/idleberg/vscode-openvpn openvpn
 
 ## License
 
-This work is licensed under [The MIT License](https://opensource.org/licenses/MIT)
+This work is licensed under [The MIT License](LICENSE)
